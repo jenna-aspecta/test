@@ -37,7 +37,7 @@ def main():
     commit_message = sys.argv[1]
     file_path = "github.txt"
 
-    for i in range(201):
+    for i in range(31):
         content = f"This is commit number {i+1}\n"
         update_file(file_path, content)
         git_add()
